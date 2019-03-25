@@ -1,9 +1,9 @@
 
 # Canvas Challenges
 
-If you want to use Canvas for Project 1, you must make a solid attempt at this without collaborating with other students, and be able to explain your code clearly.  
+Adapted with ❤ from GA Chicago's [original lab](https://git.generalassemb.ly/wdi-14-chi-cc-5/canvas-lab).
 
-Otherwise: this is optional! You are not intended to finish this—indeed, you are not expected to do it at all... it's simply a challenge for challenge's sake. Just have fun with it and do as much as you can.
+If you want to use Canvas for Project 1, this will be some great practice for you!
 
 
 ## *READ THIS ENTIRE THING CAREFULLY BEFORE STARTING*
@@ -20,8 +20,7 @@ Otherwise: this is optional! You are not intended to finish this—indeed, you a
 
 * How'd you do it?  Did you write a few lines of code like `ctx.somethingOrOther()` inside a nested `for` loop?  Great.  Now, put that logic in a function called something like `makeSquare`, and call that function in your loop instead.  If you already did this, great.
 
-* Actually, we're going to need to be able to know the state of these squares for several reasons in the future.  So create a Square class.  Instead of just a function that 
-
+* Actually, we're going to need to be able to know the state of these squares for several reasons in the future.  So create a Square class.
 
 ### Note: Comments 
 
@@ -73,11 +72,17 @@ and also:
 
 3b. Make listeners (put them in the global scope) on the arrow keys to move the chartreuse ball around based on user input (by calling methods in the object)
 
-3c. **Big important goal:** as the ball quickly moves around the canvas, it should "erase" the checkerboard squares, by which I mean restoring the canvas to its original background-color. 
+# BONUS
+
+Anything below this is completely BONUS! If you got this far, take a second to celebrate! 
+
+### Bonus Ball Goals
+
+3c. As the ball quickly moves around the canvas, it should "erase" the checkerboard squares, by which I mean restoring the canvas to its original background-color. 
 
 ---
 
-> Intermission: if you got this far, you're doing great!
+> Intermission: if you got this far, you're doing amazing!
 
 ---
 
@@ -100,7 +105,9 @@ If you did all of that without committing, I don't know ya.
 
 ---
 
-## The Next Level!
+## Super Bonus: The Next Level!
+
+Did you get this far? Wow!
 
 ---
 
@@ -120,5 +127,3 @@ After the squares are **all** "erased," a couple of objects should appear (of an
 ## 5. Make sure you're being a good programmer
 
 Look back over this entire lab and see if there's any way you could have been more DRY and modular. If something besides a listeners or a DOM elements and or the animation function(s) is defined in the global scope—why? Is there a good reason? Is your code well-organized? Refactor to address these things, maintaining functionality, and commit for each improvement. 
-
-REMEMBER THIS ENTIRE THING IS COMPLETELY OPTIONAL
